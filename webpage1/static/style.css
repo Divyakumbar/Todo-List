@@ -1,0 +1,168 @@
+h1{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 50px;
+   color:black;
+   text-decoration: dashed;
+   -webkit-text-stroke: 0.5px black;
+   font-style: bold;
+   
+}
+h5{
+    font-family: Georgia, 'Times New Roman', Times, seri;
+    font-size: 20px;
+    color:white;
+   
+}
+
+form{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 40px;
+    width: 300px;
+    margin:auto;
+}
+input{
+    width: 95%;
+    padding: 15px;
+    font-size: medium;
+    margin: 10px;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    background:rgb(34, 177, 234);
+    gap: 30px;
+    padding: 20px;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+
+table{
+    table-layout: center;
+    width: 75%;
+    font-size: 30px;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.box {
+    background-color: #2ec3b6;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    font-size:20px;
+    width: 300px;
+    margin: 10px auto;
+    top: 50%;
+    left: 60px;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    background-color: #0d82e7;
+    color: rgb(7, 4, 12);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 20px;
+    
+}
+
+button:hover {
+    background-color:rgb(44, 44, 234);
+}
+
+.task-text {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.task-card {
+    display: flex;
+    justify-content: space-between; /* Pushes content to left and button to right */
+    align-items: center;           /* Vertically centers everything */
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 80%;
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+.task-content {
+    flex-grow: 1; /* Takes up available space */
+    text-align: left;
+}
+
+.btn-delete {
+    background-color: #2ec3b6;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.cropped-img
+{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.nav-container {
+    position: absolute;
+    top: 50%;
+    left:250px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.box1 {
+    display: block;      /* Puts each link on a new line */
+    background-color: #2ec3b6;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px 0;      /* Creates the separation between boxes */
+    border-radius: 10px;
+    text-decoration: none;
+    width: 250px;        /* Keeps boxes uniform size */
+    font-size: 20px;
+    transition: background 0.3s ease;
+}
+.box1:hover{
+    background-color: #0d82e7;
+    transform: scale(1.05);
+}

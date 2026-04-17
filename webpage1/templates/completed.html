@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Mark as Completed</title>
+        <link rel="stylesheet" href="static/style.css"></head>
+        <nav>
+            <a href="/home">Home</a>
+        </nav>
+    </head>
+    <body>
+        <img src="static/images/about1.jpg" width="100%" height="100%" alt="Home">
+        <div class="nav-container">
+        <h1>Mark as Completed</h1>
+          
+         {% for row in tasks %}
+        <div class="box"> 
+          {{row[1] }}
+          {{ row[2]}}
+        </div> 
+        <label for="completed">Completed</label>
+        <input type="checkbox" name="completed"><br>
+         {% endfor %}
+        </div>
+    </body>
+</html>
